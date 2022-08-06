@@ -1,4 +1,3 @@
-from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
@@ -9,11 +8,6 @@ driver = webdriver.Chrome(PATH)
 driver.get('https://open.spotify.com/playlist/37i9dQZF1DWXRqgorJj26U')
 time.sleep(3)
 driver.execute_script("document.body.style.zoom = '0.04'")
-#scroll = driver.find_element(By.XPATH, "//div[@class='os-scrollbar-handle']")
-#print(scroll.value_of_css_property("transform"))
-#driver.execute_script("arguments[0].style.transform = 'translate(0px, 100.0000px)';", scroll)
-#print(scroll.value_of_css_property("transform"))
-time.sleep(3)
 search = driver.find_elements(By.XPATH, "//div[@class='JUa6JJNj7R_Y3i4P8YUX']")
 for song in search:
     content = song.text
