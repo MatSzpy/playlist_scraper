@@ -6,12 +6,12 @@ Contains program that will be used to scrape and modify Spotify playlists.
 * [Project Status](#project_status)
 
 ## Features 
-* scraping Spotify's playlists (only first 25 songs).
+* scraping Spotify's playlists (only first 325 songs),
+* saving collected data in Excel file.
 
 To do:
-* scraping more than 25 songs,
+* scraping all songs from playlist,
 * modifying collected data,
-* saving collected data in CSV files,
 * sorting data by author's birth date,
 * creating sorted playlists (TDL).
 
