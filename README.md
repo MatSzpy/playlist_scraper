@@ -1,5 +1,5 @@
 # playlist_scraper
-Contains program that will be used to scrape and modify Spotify playlists.
+Contains program that will be used to scrape and modify Spotify playlists. The modified playlists will be uploaded to Spotify.
 
 # Table of contents
 * [Features](#features)
@@ -7,7 +7,9 @@ Contains program that will be used to scrape and modify Spotify playlists.
 
 ## Features 
 * scraping Spotify's playlists (only first 325 songs),
-* saving collected data in Excel file.
+* saving collected data in Excel file,
+* logging on Spotify account,
+* creating a new playlist from saved Excel file.
 
 To do:
 * scraping all songs from playlist,
@@ -17,3 +19,4 @@ To do:
 
 ## Project Status
 Project is in progress.
+
