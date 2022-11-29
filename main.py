@@ -27,7 +27,7 @@ driver.get('https://open.spotify.com/')
 time.sleep(3)
 logging_in() #logowanie do Spotify
 time.sleep(3)
-driver.get('https://open.spotify.com/playlist/1SQsULHYDVHhG5mHSROZ0z')
+driver.get('https://open.spotify.com/playlist/37i9dQZF1DX2LTcinqsO68')
 time.sleep(4)
 cookies = driver.find_element(By.XPATH, '//*[@id="onetrust-accept-btn-handler"]')
 cookies.click()
